@@ -13,12 +13,25 @@
     <title>giphy</title>
 </head>
 
-<body>
-    <h1>Giphy searcher</h1>
+<body id = "home" data-spy="scroll" data-target=".navbar" offset ="100">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-warning fixed-top">
+        <div class ="container">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item" >Giphy App <span class="sr-only">(current)</span></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid bg-secondary text-white text-center"> 
+        <h1>Giphy searcher</h1>
     <input type='text' id='search' placeholder="Search for gif">
     
     <input type='number' id='gifnumber' placeholder="Number of gif"><br><br>
     <button id='btn'>Search</button><br><br>
+    </div>
+    
     
     
     <p id='content'></p>
